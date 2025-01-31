@@ -108,14 +108,17 @@ body {
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
+        .testimonials-card img {
+           
+            border-radius: 5px;
+        }
         .testimonial-card {
             background: #f9f9f9;
             padding: 20px;
             border-radius: 5px;
         }
-        .testimonial-card img {
-            width: 100%;
-            height: auto;
+        .testimonials-card img {
+           
             border-radius: 5px;
         }
         .why-choose-us {

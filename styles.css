@@ -116,7 +116,7 @@ body {
         .testimonial-card img {
             width: 100%;
             height: auto;
-            border-radius: 50%;
+            border-radius: 50px;
         }
         .why-choose-us {
             background: #e6f3ff;

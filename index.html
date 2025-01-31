@@ -1,118 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-sheba</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthHub</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>E-sheba</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Application</a></li>
-        <li><a href="#">History</a></li>
-      </ul>
-      <div class="auth-buttons">
-        <button>Log in</button>
-        <button>Sign up</button>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section class="banner">
-      <h2>Find & Search Your Favourite Doctor</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-      <div class="search-bar">
-        <input type="text" placeholder="Doctor's Name">
-        <input type="text" placeholder="Location">
-        <button>Search</button>
-      </div>
-      <div class="stats">
-        <div>24/7 Online Support</div>
-        <div>100+ Doctors</div>
-        <div>1M+ Active Patients</div>
-      </div>
-      <img src="national-cancer-institute-701-FJcjLAQ-unsplash.jpg" alt="Banner Image">
-    </section>
-    <section class="consulting-specialists">
-      <h2>Our Consulting Specialists</h2>
-      <div class="specialists">
-        <div class="specialist">
-          <h3>Covid-19 Test</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-          <img src="olga-kononenko-zQEmEAb-WpY-unsplash.jpg" alt="Covid-19 Test">
+    <header>
+        <div class="container">
+            <nav>
+                <h1>HealthHub</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#specialists">Specialists</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+                <button class="btn">Log in</button>
+                <button class="btn-outline">Sign up</button>
+            </nav>
         </div>
-        <div class="specialist">
-          <h3>Heart Lungs</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-          <img src="piron-guillaume-U4FyCp3-KzY-unsplash (1).jpg" alt="Heart Lungs">
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Find Your Ideal Healthcare Professional</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Location">
+                <input type="text" placeholder="Doctor's Name or Specialty">
+                <button class="btn">Search</button>
+            </div>
         </div>
-        <div class="specialist">
-          <h3>Supplements</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-          <img src="piron-guillaume-U4FyCp3-KzY-unsplash.jpg" alt="Supplements">
+    </section>
+    
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="https://mdcartel.github.io/medspage/images/vaibhav-vivian-3HIroMoyre8-unsplash.jpg" alt="Telemedicine">
+                    <h3>Telemedicine Consultations</h3>
+                    <p>Connect with healthcare professionals from the comfort of your home.</p>
+                </div>
+                <div class="service-card">
+                    <img src="path/to/image" alt="Medication Management">
+                    <h3>Medication Management</h3>
+                    <p>Keep track of your prescriptions and get timely refill reminders.</p>
+                </div>
+                <div class="service-card">
+                    <img src="path/to/image" alt="Cardiovascular Care">
+                    <h3>Cardiovascular Care</h3>
+                    <p>Comprehensive heart health services and monitoring.</p>
+                </div>
+                <div class="service-card">
+                    <img src="path/to/image" alt="Mental Wellness">
+                    <h3>Mental Wellness</h3>
+                    <p>Access to mental health resources and professional support.</p>
+                </div>
+            </div>
         </div>
-        <div class="specialist">
-          <h3>Mental Health</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-          <img src="istockphoto-1938542776-1024x1024.jpg" alt="Mental Health">
+    </section>
+    
+    <section id="specialists" class="specialists">
+        <div class="container">
+            <div class="specialists-grid">
+                <div class="specialist-card">
+                    <img src="path/to/image" alt="Dr. Emily Chen">
+                    <h3>Dr. Emily Chen</h3>
+                    <p>Cardiologist</p>
+                </div>
+                <div class="specialist-card">
+                    <img src="path/to/image" alt="Dr. Michael Johnson">
+                    <h3>Dr. Michael Johnson</h3>
+                    <p>Neurologist</p>
+                </div>
+                <div class="specialist-card">
+                    <img src="path/to/image" alt="Dr. Sarah Thompson">
+                    <h3>Dr. Sarah Thompson</h3>
+                    <p>Pediatrician</p>
+                </div>
+                <div class="specialist-card">
+                    <img src="path/to/image" alt="Dr. David Lee">
+                    <h3>Dr. David Lee</h3>
+                    <p>Oncologist</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-    <section class="why-choose-us">
-      <h2>Why You Choose Us?</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      </ul>
+    
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="path/to/image" alt="Sarah Johnson">
+                    <p>HealthHub has revolutionized how I manage my healthcare. The telemedicine consultations are so convenient, and the doctors are top-notch!</p>
+                    <h4>Sarah Johnson</h4>
+                    <small>05/15/23</small>
+                </div>
+                <div class="testimonial-card">
+                    <img src="path/to/image" alt="Michael Chen">
+                    <p>I've been using HealthHub for my family's medical needs, and it's been a game-changer. The ease of scheduling appointments and accessing our medical records is fantastic.</p>
+                    <h4>Michael Chen</h4>
+                    <small>04/22/23</small>
+                </div>
+                <div class="testimonial-card">
+                    <img src="path/to/image" alt="Emily Rodriguez">
+                    <p>As someone with a chronic condition, HealthHub has made it so much easier to stay on top of my health. The medication management feature is particularly helpful.</p>
+                    <h4>Emily Rodriguez</h4>
+                    <small>06/03/23</small>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="testimonials">
-      <h2>What Our Members Say About Us</h2>
-      <div class="testimonial">
-        <p>Jane Cooper <span>★★★★★</span></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-      </div>
-      <p>100+ Reviews</p>
-    </section>
-    <section class="future-quality-health">
-      <h2>The Future of Quality Health</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-      <img src="istockphoto-1722567749-1024x1024.jpg" alt="Doctor with Patient">
-    </section>
-    <section class="subscribe-newsletter">
-      <h2>Subscribe To Our Newsletter</h2>
-      <form>
-        <input type="email" placeholder="Enter your email">
-        <button>Subscribe</button>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <div class="footer-section">
-      <h3>E-sheba</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-    </div>
-    <div class="footer-section">
-      <h3>Useful Links</h3>
-      <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Our Team</a></li>
-      </ul>
-    </div>
-    <div class="footer-section">
-      <h3>Address</h3>
-      <img src="istockphoto-1921031919-1024x1024.jpg" alt="Map">
-    </div>
-  </footer>
-  <script src="script.js"></script>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>HealthHub</h3>
+                    <p>Your one-stop solution for all your healthcare needs.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#specialists">Specialists</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <p>Email: contact@healthhub.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div>
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>

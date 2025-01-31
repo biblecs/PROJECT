@@ -61,6 +61,15 @@ body {
             width: 30%;
             margin-right: 10px;
         }
+        .stats {
+            margin-top: 20px;
+        }
+ 
+        .stats div {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
         .services {
             padding: 4rem 0;
         }

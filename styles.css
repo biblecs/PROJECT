@@ -1,14 +1,21 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #333;
 }
 
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Header Styles */
 header {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,91 +40,199 @@ header ul li {
 header ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
-section {
-    padding: 20px;
+header ul li a.signup-btn {
+    background-color: white;
+    color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
     text-align: center;
 }
 
-#home {
-    background-color: #f4f4f4;
-    padding: 50px 20px;
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
-#home form {
+#hero h1 span {
+    color: #4CAF50;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#hero form {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 20px;
 }
 
-#home input {
+#hero input {
     padding: 10px;
     width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-#home button {
+#hero button {
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
+/* Services Section */
 #services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.services-grid {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .service {
     width: 22%;
-    margin: 10px 0;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Testimonials Section */
 #testimonials {
-    background-color: #f4f4f4;
+    background-color: #4CAF50;
+    color: white;
     padding: 50px 20px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .testimonial {
     margin-bottom: 20px;
 }
 
+.testimonial p {
+    font-size: 18px;
+}
+
+.testimonial span {
+    font-size: 14px;
+    color: #ddd;
+}
+
 .stats {
+    font-size: 18px;
     margin-top: 20px;
 }
 
-#why-choose-us, #future {
-    background-color: #4CAF50;
-    color: white;
+/* Why Choose Us Section */
+#why-choose-us {
     padding: 50px 20px;
+    text-align: center;
 }
 
-#why-choose-us button, #future button {
-    background-color: white;
-    color: #4CAF50;
+#why-choose-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#why-choose-us p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#why-choose-us button {
     padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-#newsletter {
+/* Future Section */
+#future {
     background-color: #f4f4f4;
     padding: 50px 20px;
+    text-align: center;
+}
+
+#future h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#future p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#future button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Newsletter Section */
+#newsletter {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#newsletter h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 #newsletter form {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 20px;
 }
 
 #newsletter input {
     padding: 10px;
     width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 #newsletter button {
@@ -125,9 +240,11 @@ section {
     background-color: #4CAF50;
     color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
+/* Footer Section */
 footer {
     background-color: #333;
     color: white;
@@ -138,18 +255,29 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
-.footer-content .links ul {
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-content .links ul li {
+.footer-section ul li {
     margin-bottom: 10px;
 }
 
-.footer-content .links ul li a {
+.footer-section ul li a {
     color: white;
     text-decoration: none;
 }
@@ -157,4 +285,6 @@ footer {
 .footer-bottom {
     text-align: center;
     margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
 }

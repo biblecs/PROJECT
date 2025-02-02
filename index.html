@@ -7,120 +7,112 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <div class="container">
-        <header>
-            <nav>
-                <h1>clinic</h1>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#specialists">Specialists</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                </ul>
-                <button class="btn">Log in</button>
-                <button class="btn-outline">Sign up</button>
-            </nav>
-        </header>
+  <header>
+    <h1>E-sheba</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Application</a></li>
+        <li><a href="#">History</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <button>Log in</button>
+        <button>Sign up</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="banner">
+      <h2>Find & Search Your Favourite Doctor</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+      <div class="search-bar">
+        <input type="text" placeholder="Doctor's Name">
+        <input type="text" placeholder="Location">
+        <button>Search</button>
+      </div>
+      <div class="stats">
+        <div>24/7 Online Support</div>
+        <div>100+ Doctors</div>
+        <div>1M+ Active Patients</div>
+      </div>
+      <img src="images/banner-image.jpg" alt="Banner Image">
+    </section>
+    <section class="consulting-specialists">
+      <h2>Our Consulting Specialists</h2>
+      <div class="specialists">
+        <div class="specialist">
+          <h3>Covid-19 Test</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+          <img src="images/covid-test.jpg" alt="Covid-19 Test">
+        </div>
+        <div class="specialist">
+          <h3>Heart Lungs</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+          <img src="images/heart-lungs.jpg" alt="Heart Lungs">
+        </div>
+        <div class="specialist">
+          <h3>Supplements</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+          <img src="images/supplements.jpg" alt="Supplements">
+        </div>
+        <div class="specialist">
+          <h3>Mental Health</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+          <img src="images/mental-health.jpg" alt="Mental Health">
+        </div>
+      </div>
+    </section>
+    <section class="why-choose-us">
+      <h2>Why You Choose Us?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      </ul>
+    </section>
+    <section class="testimonials">
+      <h2>What Our Members Say About Us</h2>
+      <div class="testimonial">
+        <p>Jane Cooper <span>★★★★★</span></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
+      <p>100+ Reviews</p>
+    </section>
+    <section class="future-quality-health">
+      <h2>The Future of Quality Health</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+      <img src="images/doctor-patient.jpg" alt="Doctor with Patient">
+    </section>
+    <section class="subscribe-newsletter">
+      <h2>Subscribe To Our Newsletter</h2>
+      <form>
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-section">
+      <h3>E-sheba</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
     </div>
-
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Find & Search Your <span>Doctor</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
-            <form>
-                <input type="text" placeholder="Doctor’s Name">
-                <input type="text" placeholder="Location">
-                <button type="submit">Search</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <h2>Our Consulting Specialists</h2>
-        <div class="services-grid">
-            <div class="service">
-                <h3>Covid-19 Test</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
-            </div>
-            <div class="service">
-                <h3>Suppliment</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
-            </div>
-            <div class="service">
-                <h3>Heart Lungs</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
-            </div>
-            <div class="service">
-                <h3>Mental Health</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-        <h2>What Our Members Are Saying</h2>
-        <div class="testimonial">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
-            <span>- Jane Cooper, 12/4/17</span>
-        </div>
-        <div class="stats"
-                <p>24/7 Online<br> Support</br></p>
-                <p>100+ <br>Doctors</br></p>
-                <p>1M+ <br>Active</br> Patients</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section id="why-choose-us">
-        <h2>Why You Choose Us?</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button>Learn More</button>
-    </section>
-
-    <!-- Future of Health Section -->
-    <section id="future">
-        <h2>The Future of Quality Health</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus feugiat lectus risus sed ullamcorper.</p>
-        <button>Learn More</button>
-    </section>
-
-    <!-- Newsletter Section -->
-    <section id="newsletter">
-        <h2>Subscribe To Our Newsletter</h2>
-        <form>
-            <input type="email" placeholder="Enter your email">
-            <button type="submit">Subscribe</button>
-        </form>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <div class="logo">E-sheba</div>
-                <p>Address</p>
-            </div>
-            <div class="footer-section">
-                <h3>Useful Links</h3>
-                <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#privacy">Privacy Policy</a></li>
-                    <li><a href="#mission">Our Mission</a></li>
-                    <li><a href="#team">Our Team</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>2022 All Right Reserved</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+    <div class="footer-section">
+      <h3>Useful Links</h3>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Our Team</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Address</h3>
+      <img src="images/map.jpg" alt="Map">
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>

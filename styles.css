@@ -24,6 +24,7 @@ header {
 header .logo {
     font-size: 24px;
     font-weight: bold;
+    magin
 }
 
 header ul {
@@ -55,6 +56,9 @@ header ul li a.signup-btn {
     background-color: #f4f4f4;
     padding: 50px 20px;
     text-align: center;
+    grid-template-columns:repeat(2, 1fr);
+    display:grid;
+    gap:20px;
 }
 
 #hero h1 {
@@ -97,6 +101,7 @@ header ul li a.signup-btn {
 #services {
     padding: 50px 20px;
     text-align: center;
+    grid-template-columns:repeat(2, 1fr);
 }
 
 #services h2 {
@@ -108,6 +113,7 @@ header ul li a.signup-btn {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    grid-template-columns:repeat(2, 1fr);
     gap: 20px;
 }
 
@@ -164,6 +170,8 @@ header ul li a.signup-btn {
 #why-choose-us {
     padding: 50px 20px;
     text-align: center;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
 }
 
 #why-choose-us h2 {
@@ -190,6 +198,8 @@ header ul li a.signup-btn {
     background-color: #f4f4f4;
     padding: 50px 20px;
     text-align: center;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
 }
 
 #future h2 {
@@ -249,6 +259,8 @@ footer {
     background-color: #333;
     color: white;
     padding: 20px;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
 }
 
 .footer-content {

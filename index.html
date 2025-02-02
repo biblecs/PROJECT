@@ -1,44 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PDF Viewer</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-sheba</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Sidebar for navigation -->
-  <div id="sidebar">
-    <ul id="outline">
-      <li><a href="#page1">Page 1</a></li>
-      <li><a href="#page2">Page 2</a></li>
-      <li><a href="#page3">Page 3</a></li>
-    </ul>
-  </div>
+    <header>
+        <nav>
+            <div class="logo">E-sheba</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#application">Application</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#login">Log in</a></li>
+                <li><a href="#signup">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Main container for PDF pages -->
-  <div id="page-container">
-    <!-- Individual PDF pages -->
-    <div class="page-frame" id="page1">
-      <div class="page-content">
-        <!-- Content of Page 1 -->
-        <p>This is the content of Page 1.</p>
-      </div>
-    </div>
+    <section id="home">
+        <h1>Find & Search Your Doctor</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        <form>
+            <input type="text" placeholder="Location">
+            <input type="text" placeholder="Doctor’s Name">
+            <button type="submit">Search</button>
+        </form>
+    </section>
 
-    <div class="page-frame" id="page2">
-      <div class="page-content">
-        <!-- Content of Page 2 -->
-        <p>This is the content of Page 2.</p>
-      </div>
-    </div>
+    <section id="services">
+        <h2>Our Consulting Specialists</h2>
+        <div class="service">
+            <h3>Covid-19 Test</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        </div>
+        <div class="service">
+            <h3>Suppliment</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        </div>
+        <div class="service">
+            <h3>Heart Lungs</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        </div>
+        <div class="service">
+            <h3>Mental Health</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        </div>
+    </section>
 
-    <div class="page-frame" id="page3">
-      <div class="page-content">
-        <!-- Content of Page 3 -->
-        <p>This is the content of Page 3.</p>
-      </div>
-    </div>
-  </div>
+    <section id="testimonials">
+        <h2>What Our Members Are Saying</h2>
+        <div class="testimonial">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+            <span>- Jane Cooper, 12/4/17</span>
+        </div>
+        <div class="stats">
+            <p>100+ Reviews</p>
+        </div>
+    </section>
+
+    <section id="why-choose-us">
+        <h2>Why You Choose Us?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Learn More</button>
+    </section>
+
+    <section id="future">
+        <h2>The Future of Quality Health</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus feugiat lectus risus sed ullamcorper.</p>
+        <button>Learn More</button>
+    </section>
+
+    <section id="newsletter">
+        <h2>Subscribe To Our Newsletter</h2>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">E-sheba</div>
+            <div class="address">
+                <p>Address</p>
+            </div>
+            <div class="links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                </ul>
+            </div>
+            <div class="stats">
+                <p>24/7 Online Support</p>
+                <p>100+ Doctors</p>
+                <p>1M+ Active Patients</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2022 All Right Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

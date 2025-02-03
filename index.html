@@ -3,71 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime World</title>
+    <title>HealthHub</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Anime World</h1>
+        <div class="container">
+            <nav>
+                <h1>HealthHub</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#specialists">Specialists</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+                <button class="btn">Log in</button>
+                <button class="btn-outline">Sign up</button>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#anime-list">Anime List</a>
-        <a href="#community">Community</a>
-        <a href="#login">Login</a>
-    </nav>
+    
     <section class="hero">
-        <h1>Find & Explore Your Favorite Anime</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Discover a world of exciting anime series and movies.</p>
-    </section>
-    <section class="features">
-        <div class="feature">
-            <h2>24/7 Streaming</h2>
-            <p>Watch your favorite anime anytime, anywhere.</p>
-        </div>
-        <div class="feature">
-            <h2>100+ Genres</h2>
-            <p>From action to romance, find anime that suits your taste.</p>
-        </div>
-        <div class="feature">
-            <h2>1M+ Episodes</h2>
-            <p>Endless entertainment with a vast library of episodes.</p>
-        </div>
-    </section>
-    <section class="categories">
-        <h2>Our Popular Categories</h2>
-        <div class="category-list">
-            <div class="category">
-                <h3>Shonen</h3>
-                <p>Action-packed adventures for young audiences.</p>
-            </div>
-            <div class="category">
-                <h3>Shojo</h3>
-                <p>Heartwarming stories and romantic tales.</p>
-            </div>
-            <div class="category">
-                <h3>Seinen</h3>
-                <p>Mature themes and complex narratives.</p>
-            </div>
-            <div class="category">
-                <h3>Mecha</h3>
-                <p>Giant robots and futuristic battles.</p>
+        <div class="container">
+            <h1>Find Your Ideal Healthcare Professional</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Location">
+                <input type="text" placeholder="Doctor's Name or Specialty">
+                <button class="btn">Search</button>
             </div>
         </div>
     </section>
-    <section class="why-choose-us">
-        <h2>Why Choose Anime World?</h2>
-        <p>Extensive Library | High-Quality Streaming | Community Engagement | Regular Updates</p>
+    
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="https://mdcartel.github.io/medspage/images/vaibhav-vivian-3HIroMoyre8-unsplash.jpg" alt="Telemedicine">
+                    <h3>Telemedicine Consultations</h3>
+                    <p>Connect with healthcare professionals from the comfort of your home.</p>
+                </div>
+                <div class="service-card">
+                    <img src="path/to/image" alt="Medication Management">
+                    <h3>Medication Management</h3>
+                    <p>Keep track of your prescriptions and get timely refill reminders.</p>
+                </div>
+                <div class="service-card">
+                    <img src="path/to/image" alt="Cardiovascular Care">
+                    <h3>Cardiovascular Care</h3>
+                    <p>Comprehensive heart health services and monitoring.</p>
+                </div>
+                <div class="service-card">
+                    <img src="path/to/image" alt="Mental Wellness">
+                    <h3>Mental Wellness</h3>
+                    <p>Access to mental health resources and professional support.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="testimonials">
-        <h2>What Our Members Are Saying</h2>
-        <p>"Anime World has the best collection of anime I've ever seen!" - User123</p>
-        <p>"I love the community features and the quality of streaming." - AnimeFan456</p>
-        <p>"Regular updates keep me coming back for more." - Otaku789</p>
+    
+    <section id="specialists" class="specialists">
+        <div class="container">
+            <div class="specialists-grid">
+                <div class="specialist-card">
+                    <img src="path/to/image" alt="Dr. Emily Chen">
+                    <h3>Dr. Emily Chen</h3>
+                    <p>Cardiologist</p>
+                </div>
+                <div class="specialist-card">
+                    <img src="path/to/image" alt="Dr. Michael Johnson">
+                    <h3>Dr. Michael Johnson</h3>
+                    <p>Neurologist</p>
+                </div>
+                <div class="specialist-card">
+                    <img src="path/to/image" alt="Dr. Sarah Thompson">
+                    <h3>Dr. Sarah Thompson</h3>
+                    <p>Pediatrician</p>
+                </div>
+                <div class="specialist-card">
+                    <img src="path/to/image" alt="Dr. David Lee">
+                    <h3>Dr. David Lee</h3>
+                    <p>Oncologist</p>
+                </div>
+            </div>
+        </div>
     </section>
+    
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="path/to/image" alt="Sarah Johnson">
+                    <p>HealthHub has revolutionized how I manage my healthcare. The telemedicine consultations are so convenient, and the doctors are top-notch!</p>
+                    <h4>Sarah Johnson</h4>
+                    <small>05/15/23</small>
+                </div>
+                <div class="testimonial-card">
+                    <img src="path/to/image" alt="Michael Chen">
+                    <p>I've been using HealthHub for my family's medical needs, and it's been a game-changer. The ease of scheduling appointments and accessing our medical records is fantastic.</p>
+                    <h4>Michael Chen</h4>
+                    <small>04/22/23</small>
+                </div>
+                <div class="testimonial-card">
+                    <img src="path/to/image" alt="Emily Rodriguez">
+                    <p>As someone with a chronic condition, HealthHub has made it so much easier to stay on top of my health. The medication management feature is particularly helpful.</p>
+                    <h4>Emily Rodriguez</h4>
+                    <small>06/03/23</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <footer>
-        <p>&copy; 2023 Anime World. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>HealthHub</h3>
+                    <p>Your one-stop solution for all your healthcare needs.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#specialists">Specialists</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <p>Email: contact@healthhub.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div>
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>

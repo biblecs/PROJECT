@@ -1,163 +1,85 @@
-body {
+<style>
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-        }
-        .containe {
-            width: 80%;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-        header {
-            background: #f4f4f4;
-            padding: 1rem 0;
-        }
-        header nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        header nav ul {
-            display: flex;
-            list-style: none;
-        }
-        header nav ul li {
-            margin-left: 20px;
-        }
-        a {
-            text-decoration: none;
+            background-color: #f4f4f4;
             color: #333;
         }
-        .btn {
-            display: inline-block;
-            background: #3498db;
+        header {
+            background-color: #333;
             color: #fff;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
+            padding: 10px 0;
+            text-align: center;
         }
-        .btn-outline {
-            background: transparent;
-            border: 1px solid #3498db;
-            color: #3498db;
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
         }
         .hero {
-            background: #e6f3ff;
-            padding: 4rem 0;
+            background: url('anime-hero.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 100px 20px;
             text-align: center;
         }
         .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
+            font-size: 3em;
+            margin-bottom: 20px;
         }
-        .search-bar {
+        .features {
             display: flex;
-            justify-content: center;
-            margin-top: 2rem;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: #fff;
         }
-        .search-bar input {
-            padding: 10px;
+        .feature {
+            text-align: center;
             width: 30%;
-            margin-right: 10px;
         }
-        .services {
-            padding: 4rem 0;
-        }
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-        }
-        .service-card {
-            background: #f9f9f9;
-            padding: 20px;
+        .categories {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
             text-align: center;
-            border-radius: 5px;
         }
-        .service-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
+        .categories h2 {
+            margin-bottom: 40px;
         }
-        .specialists {
-            background: #f4f4f4;
-            padding: 4rem 0;
+        .category-list {
+            display: flex;
+            justify-content: space-around;
         }
-        .specialists-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-        }
-        .specialist-card {
-            background: #fff;
-            padding: 20px;
+        .category {
+            width: 22%;
             text-align: center;
-            border-radius: 5px;
-        }
-        .specialist-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        .testimonials {
-            padding: 4rem 0;
-        }
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-        .testimonial-card {
-            background: #f9f9f9;
-            padding: 20px;
-            border-radius: 5px;
-        }
-        .testimonial-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 50%;
         }
         .why-choose-us {
-            background: #e6f3ff;
-            padding: 4rem 0;
-        }
-        .why-choose-us-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .future-of-health {
-            padding: 4rem 0;
-        }
-        .future-of-health-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .newsletter {
-            background: #3498db;
-            color: #fff;
-            padding: 4rem 0;
+            padding: 50px 20px;
+            background-color: #fff;
             text-align: center;
         }
-        .newsletter form {
-            display: flex;
-            justify-content: center;
-            margin-top: 2rem;
+        .why-choose-us h2 {
+            margin-bottom: 40px;
         }
-        .newsletter input {
-            padding: 10px;
-            width: 300px;
-            margin-right: 10px;
+        .testimonials {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .testimonials h2 {
+            margin-bottom: 40px;
         }
         footer {
-            background: #333;
+            background-color: #333;
             color: #fff;
-            padding: 4rem 0;
+            text-align: center;
+            padding: 20px 0;
         }
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-        }
+    </style>

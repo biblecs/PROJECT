@@ -1,85 +1,281 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-            padding: 10px;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .hero {
-            background: url('anime-hero.jpg') no-repeat center center/cover;
-            color: #fff;
-            padding: 100px 20px;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
-        .features {
-            display: flex;
-            justify-content: space-around;
-            padding: 50px 20px;
-            background-color: #fff;
-        }
-        .feature {
-            text-align: center;
-            width: 30%;
-        }
-        .categories {
-            padding: 50px 20px;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .categories h2 {
-            margin-bottom: 40px;
-        }
-        .category-list {
-            display: flex;
-            justify-content: space-around;
-        }
-        .category {
-            width: 22%;
-            text-align: center;
-        }
-        .why-choose-us {
-            padding: 50px 20px;
-            background-color: #fff;
-            text-align: center;
-        }
-        .why-choose-us h2 {
-            margin-bottom: 40px;
-        }
-        .testimonials {
-            padding: 50px 20px;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .testimonials h2 {
-            margin-bottom: 40px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    float: right;
+}
+
+.auth-buttons button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero .highlight {
+    color: #ffeb3b;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #ffeb3b;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    float: right;
+}
+
+.auth-buttons button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero .highlight {
+    color: #ffeb3b;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #ffeb3b;
+    border: none;
+    cursor: pointer;
+}
+
+.stats {
+    margin-top: 20px;
+}
+
+.stats div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.consulting-specialists {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.specialist-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.why-choose-us {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-us ul li {
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.testimonial .author {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.consulting-specialists {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.specialist-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.why-choose-us {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-us ul li {
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.testimonial .author {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

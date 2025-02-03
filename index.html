@@ -3,117 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-sheba</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Anime World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('anime-hero.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+        .feature {
+            text-align: center;
+            width: 30%;
+        }
+        .categories {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .categories h2 {
+            margin-bottom: 40px;
+        }
+        .category-list {
+            display: flex;
+            justify-content: space-around;
+        }
+        .category {
+            width: 22%;
+            text-align: center;
+        }
+        .why-choose-us {
+            padding: 50px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+        .why-choose-us h2 {
+            margin-bottom: 40px;
+        }
+        .testimonials {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .testimonials h2 {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
-  <header>
+    <header>
+        <h1>Anime World</h1>
+    </header>
     <nav>
-       <h1>E-sheba</h1>
-    
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Application</a></li>
-        <li><a href="#">History</a></li>
-      </ul>
-      <div class="auth-buttons">
-        <button>Log in</button>
-        <button>Sign up</button>
-      </div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#anime-list">Anime List</a>
+        <a href="#community">Community</a>
+        <a href="#login">Login</a>
     </nav>
-  </header>
-  <main>
-    <section class="banner">
-      <h2>Find & Search Your Favourite Doctor</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-      <div class="search-bar">
-        <input type="text" placeholder="Doctor's Name">
-        <input type="text" placeholder="Location">
-        <button>Search</button>
-      </div>
-      <div class="stats">
-        <div>24/7 Online Support</div>
-        <div>100+ Doctors</div>
-        <div>1M+ Active Patients</div>
-      </div>
-      <img src="images/banner-image.jpg" alt="Banner Image">
+    <section class="hero">
+        <h1>Find & Explore Your Favorite Anime</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Discover a world of exciting anime series and movies.</p>
     </section>
-    <section class="consulting-specialists">
-      <h2>Our Consulting Specialists</h2>
-      <div class="specialists">
-        <div class="specialist">
-          <h3>Covid-19 Test</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-          <img src="images/covid-test.jpg" alt="Covid-19 Test">
+    <section class="features">
+        <div class="feature">
+            <h2>24/7 Streaming</h2>
+            <p>Watch your favorite anime anytime, anywhere.</p>
         </div>
-        <div class="specialist">
-          <h3>Heart Lungs</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-          <img src="images/heart-lungs.jpg" alt="Heart Lungs">
+        <div class="feature">
+            <h2>100+ Genres</h2>
+            <p>From action to romance, find anime that suits your taste.</p>
         </div>
-        <div class="specialist">
-          <h3>Supplements</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-          <img src="images/supplements.jpg" alt="Supplements">
+        <div class="feature">
+            <h2>1M+ Episodes</h2>
+            <p>Endless entertainment with a vast library of episodes.</p>
         </div>
-        <div class="specialist">
-          <h3>Mental Health</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-          <img src="images/mental-health.jpg" alt="Mental Health">
+    </section>
+    <section class="categories">
+        <h2>Our Popular Categories</h2>
+        <div class="category-list">
+            <div class="category">
+                <h3>Shonen</h3>
+                <p>Action-packed adventures for young audiences.</p>
+            </div>
+            <div class="category">
+                <h3>Shojo</h3>
+                <p>Heartwarming stories and romantic tales.</p>
+            </div>
+            <div class="category">
+                <h3>Seinen</h3>
+                <p>Mature themes and complex narratives.</p>
+            </div>
+            <div class="category">
+                <h3>Mecha</h3>
+                <p>Giant robots and futuristic battles.</p>
+            </div>
         </div>
-      </div>
     </section>
     <section class="why-choose-us">
-      <h2>Why You Choose Us?</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      </ul>
+        <h2>Why Choose Anime World?</h2>
+        <p>Extensive Library | High-Quality Streaming | Community Engagement | Regular Updates</p>
     </section>
     <section class="testimonials">
-      <h2>What Our Members Say About Us</h2>
-      <div class="testimonial">
-        <p>Jane Cooper <span>★★★★★</span></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-      </div>
-      <p>100+ Reviews</p>
+        <h2>What Our Members Are Saying</h2>
+        <p>"Anime World has the best collection of anime I've ever seen!" - User123</p>
+        <p>"I love the community features and the quality of streaming." - AnimeFan456</p>
+        <p>"Regular updates keep me coming back for more." - Otaku789</p>
     </section>
-    <section class="future-quality-health">
-      <h2>The Future of Quality Health</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-      <img src="images/doctor-patient.jpg" alt="Doctor with Patient">
-    </section>
-    <section class="subscribe-newsletter">
-      <h2>Subscribe To Our Newsletter</h2>
-      <form>
-        <input type="email" placeholder="Enter your email">
-        <button>Subscribe</button>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <div class="footer-section">
-      <h3>E-sheba</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-    </div>
-    <div class="footer-section">
-      <h3>Useful Links</h3>
-      <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Our Team</a></li>
-      </ul>
-    </div>
-    <div class="footer-section">
-      <h3>Address</h3>
-      <img src="images/map.jpg" alt="Map">
-    </div>
-  </footer>
-  <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2023 Anime World. All rights reserved.</p>
+    </footer>
 </body>
 </html>
